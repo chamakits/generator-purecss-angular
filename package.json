@@ -1,19 +1,36 @@
 {
-  "name": "yeoman-purecss-angular",
-  "version": "0.1.0",
-  "description": "Application recipe with PureCSS and AngularJS",
-  "main": "gulpfile.js",
+  "name": "generator-purecss-angular",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "chamakits/generator-purecss-angular",
+  "author": {
+    "name": "Omar Ferrer",
+    "email": "omar.ferrer.uprm@gmail.com",
+    "url": "https://github.com/chamakits"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chamakits/yeoman-purecss-angular.git"
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chamakits/yeoman-purecss-angular/issues"
+  "devDependencies": {
+    "mocha": "*"
   },
-  "homepage": "https://github.com/chamakits/yeoman-purecss-angular"
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
 }
